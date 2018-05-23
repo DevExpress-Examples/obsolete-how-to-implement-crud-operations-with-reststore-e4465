@@ -1,0 +1,13 @@
+<div data-dx-role="view" data-dx-name="Index" data-dx-title="Home">
+    <div data-dx-target-placeholder="content">
+        <div data-bind="dxButton: { text: 'Add', click: btnAddClick}"></div>
+        <div data-bind="dxList: { dataSource: dSource }">
+            <div data-dx-role="template" data-dx-name="item">
+                <span data-bind="text: CategoryID"></span> 
+                <span data-bind="text: CategoryName"></span>
+                <div data-bind="dxButton: {text: 'Edit', click: function(e) { $root.btnEditClick($data.CategoryID, $data.CategoryName); }}"></div>
+                <div data-bind="dxButton: {text: 'Delete', click: function(e) { $root.btnDeleteClick($data.CategoryID);}}"></div>
+            </div>
+        </div>
+    </div>
+</div>

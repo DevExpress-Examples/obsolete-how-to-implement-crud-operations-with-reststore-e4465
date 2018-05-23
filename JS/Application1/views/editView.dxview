@@ -1,0 +1,7 @@
+<div data-dx-role="view" data-dx-name="editView" data-dx-title="Edit">
+    <div data-dx-target-placeholder="content" >
+        CategoryID:<div data-bind="dxTextbox: {value: categoryId}"></div>
+        CategoryName:<div data-bind="dxTextbox: {value: categoryName}"></div>
+        <div data-bind="dxButton: {text: 'Save', click: btnSaveClick}"></div>       
+    </div>
+</div>

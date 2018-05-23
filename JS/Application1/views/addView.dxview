@@ -1,0 +1,6 @@
+<div data-dx-role="view" data-dx-name="addView" data-dx-title="Add">
+    <div data-dx-target-placeholder="content">
+        CategoryName:<div data-bind="dxTextbox: {value: categoryName}"></div>
+        <div data-bind="dxButton: {text: 'Save', click: btnSaveClick}"></div>
+    </div>
+</div>

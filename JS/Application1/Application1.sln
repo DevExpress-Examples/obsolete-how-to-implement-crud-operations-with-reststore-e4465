@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Application1", "Application1.dxjsproj", "{09B62F9B-850F-4D5F-9FF7-BA8ECC7BA944}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09B62F9B-850F-4D5F-9FF7-BA8ECC7BA944}.Debug|x86.ActiveCfg = Debug|x86
+		{09B62F9B-850F-4D5F-9FF7-BA8ECC7BA944}.Debug|x86.Build.0 = Debug|x86
+		{09B62F9B-850F-4D5F-9FF7-BA8ECC7BA944}.Release|x86.ActiveCfg = Release|x86
+		{09B62F9B-850F-4D5F-9FF7-BA8ECC7BA944}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
